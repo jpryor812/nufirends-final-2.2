@@ -34,8 +34,8 @@ const LandingPageFinal: NextPage = () => {
       <div className={styles.landingPageFinalInner} />
       <div className={styles.findMyFriendsButtonFrame}>
         <div className={styles.findMyFriendsButton}>
-          <img className={styles.handEmojiOnButtonIcon} alt="" src="hand-emoji.svg" />
           <div className={styles.findMyFriends}>Find My Friends</div>
+          <img className={styles.handEmojiOnButtonIcon} alt="" src="hand-emoji.svg" />
         </div>
       </div>
       <div className={styles.landingPageFinalInner} />
