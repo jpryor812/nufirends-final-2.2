@@ -197,8 +197,8 @@
     justify-content: center;
 }
 .handEmojiOnButtonIcon {
-  	height: 40px;
-    width: 40px;
+  	height: 55px;
+    width: 55px;
     margin-right: 10px;
 }
 .findMyFriends {
@@ -207,7 +207,8 @@
     margin-left: 10px;
     display: flex;
     align-items: center;
-    justify-conent: center;
+    justify-content: center;
+    color: #42ade2;
 }
 .findMyFriendsButton {
   	width: 100%;
@@ -221,6 +222,7 @@
     background-color: #f8fcff;
     border: 3px solid #42ade2;
     border-radius: 45px;
+    box-sizing: border-box;
 }
 .findMyFriendsButtonFrame {
   	display: flex;
