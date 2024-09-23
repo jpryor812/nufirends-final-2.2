@@ -1,4 +1,4 @@
-=import type { NextPage } from 'next';
+import type { NextPage } from 'next';
 import styles from './landing-page.module.css'; 
 
 const LandingPageFinal: NextPage = () => {
