@@ -24,7 +24,7 @@ const LandingPageFinal:NextPage = () => {
         				</div>
         				<div className={styles.nufriendsHeaderFrame}>
           					<div className={styles.nufriends}>nufriends</div>
-          					<img className={styles.robotHeaderImageIcon} alt="" src="robot-header-image.svg" />
+          					<img className={styles.robotHeaderImageIcon} alt="" src="robot-header-image.png" />
         				</div>
       			</div>
       			<div className={styles.neverFeelAlone}>Never Feel Alone Again</div>
@@ -41,7 +41,7 @@ const LandingPageFinal:NextPage = () => {
         				<div className={styles.findMyFriendsButtonFrameItem} />
         				<div className={styles.findMyFriendsButton}>
           					<div className={styles.findMyFriendsButtonChild} />
-          					<img className={styles.handEmojiOnButtonIcon} alt="" src="hand-emoji-on-button.svg" />
+          					<img className={styles.handEmojiOnButtonIcon} alt="" src="hand-emoji.svg" />
           					<b className={styles.findMyFriends}>Find My Friends</b>
         				</div>
       			</div>
