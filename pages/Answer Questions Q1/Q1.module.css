@@ -1,0 +1,216 @@
+.answerQuestionsQ1Child {
+  	align-self: stretch;
+  	position: relative;
+  	background-color: rgba(255, 255, 255, 0);
+  	height: 37px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.nufriends {
+  	width: 262px;
+  	position: relative;
+  	display: -webkit-inline-box;
+  	align-items: center;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	-webkit-line-clamp: 2;
+  	-webkit-box-orient: vertical;
+  	flex-shrink: 0;
+  	text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+  	z-index: 0;
+}
+.robotHeaderImageIcon {
+  	width: 15.27%;
+  	position: absolute;
+  	margin: 0 !important;
+  	height: 100%;
+  	top: 0%;
+  	right: 27.27%;
+  	bottom: 0%;
+  	left: 57.46%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	z-index: 1;
+}
+.nufriendsHeaderFrame {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-end;
+  	position: relative;
+  	gap: 32px;
+}
+.answerQuestionsQ1Item {
+  	align-self: stretch;
+  	position: relative;
+  	background-color: rgba(255, 255, 255, 0);
+  	height: 25px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.textBoxChild {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 60px;
+  	background-color: #fff;
+  	border: 7px solid #000;
+  	box-sizing: border-box;
+  	width: 873px;
+  	height: 278.6px;
+}
+.whereAreYou {
+  	position: absolute;
+  	top: 17.24px;
+  	left: 16.38px;
+  	display: -webkit-inline-box;
+  	align-items: center;
+  	justify-content: center;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	-webkit-line-clamp: 4;
+  	-webkit-box-orient: vertical;
+  	width: 837.9px;
+  	text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+.textBox {
+  	flex: 1;
+  	position: relative;
+  	height: 278.6px;
+}
+.textBoxWrapper {
+  	align-self: stretch;
+  	background-color: rgba(255, 255, 255, 0);
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 0px 0px 501px;
+  	text-align: center;
+  	font-size: 46px;
+  	color: #42ade2;
+}
+.yuBigSpeak {
+  	width: 302.7px;
+  	position: relative;
+  	height: 307.5px;
+}
+.yuBigSpeakWrapper {
+  	background-color: rgba(255, 255, 255, 0);
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 0px 151px 22px 223px;
+}
+.question112 {
+  	position: relative;
+  	line-height: 40px;
+}
+.question112Wrapper {
+  	align-self: stretch;
+  	background-color: rgba(255, 255, 255, 0);
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-end;
+  	padding: 21px 77px;
+  	color: #9100c3;
+  	font-family: Roboto;
+}
+.groupChild {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	border-radius: 35px;
+  	background-color: #fff;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 1374px;
+  	height: 170px;
+}
+.textarea {
+  	position: absolute;
+  	top: 17.86px;
+  	left: 29.27px;
+  	line-height: 36px;
+  	display: flex;
+  	align-items: flex-end;
+  	width: 1103.5px;
+  	height: 135px;
+}
+.micIcon {
+  	position: absolute;
+  	top: 111.11px;
+  	left: 1211.13px;
+  	width: 42.9px;
+  	height: 40px;
+}
+.groupItem {
+  	position: absolute;
+  	top: 101.11px;
+  	left: 1274.81px;
+  	border-radius: 50%;
+  	background-color: #e0f7ff;
+  	width: 64.9px;
+  	height: 58.9px;
+}
+.groupInner {
+  	position: absolute;
+  	top: 128.89px;
+  	left: 1292.8px;
+  	max-height: 100%;
+  	width: 28.9px;
+}
+.rectangleParent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1374px;
+  	height: 170px;
+}
+.groupWrapper {
+  	align-self: stretch;
+  	position: relative;
+  	height: 170px;
+}
+.answerQuestionsQ1Inner {
+  	align-self: stretch;
+  	background-color: #fff;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	font-size: 28px;
+  	color: #000;
+  	font-family: Roboto;
+}
+.frameDiv {
+  	align-self: stretch;
+  	position: relative;
+  	background-color: rgba(255, 255, 255, 0);
+  	height: 50px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.answerQuestionsQ1 {
+  	width: 100%;
+  	position: relative;
+  	background: linear-gradient(180deg, #e0f7ff, #fff);
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 0px 63px;
+  	box-sizing: border-box;
+  	text-align: left;
+  	font-size: 32px;
+  	color: #119be8;
+  	font-family: 'Suez One';
+}
+
