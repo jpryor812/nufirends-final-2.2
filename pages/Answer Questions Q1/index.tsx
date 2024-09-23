@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import styles from './index.module.css';
+import styles from './Q1.module.css';
 
 
 const AnswerQuestionsQ:NextPage = () => {
