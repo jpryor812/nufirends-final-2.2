@@ -199,8 +199,8 @@
 .handEmojiOnButtonIcon {
   	height: 60px;
     width: 60px;
-    display: block;
-    margin-right: 10px;
+    flex-shrink: 0;;
+    margin-right: 15px;
 }
 .findMyFriends {
     font-size: 28px; 
