@@ -211,6 +211,7 @@
     justify-content: center;
     color: #42ade2;
     font-family: Roboto;
+    transition: color 0.1s ease;
 }
 
 .findMyFriendsBUtton:hover .findMyFriends {
