@@ -200,12 +200,12 @@
   	height: 60px;
     width: 60px;
     display: block;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 .findMyFriends {
     font-size: 28px; 
     line-height: 40px;
-    margin-left: 15px;
+    margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
