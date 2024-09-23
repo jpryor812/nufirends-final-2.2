@@ -75,6 +75,7 @@
 .nufriends {
   	width: 262px;
   	position: relative;
+    font-family: 'Suez One';
   	display: -webkit-inline-box;
   	align-items: center;
   	overflow: hidden;
