@@ -1,0 +1,291 @@
+.duoEmojiIcon {
+  	width: 40px;
+  	position: relative;
+  	height: 35px;
+}
+.duoEmojiFrame {
+  	width: 61px;
+  	height: 51.4px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+.handEmojiIcon {
+  	width: 100%;
+  	position: absolute;
+  	margin: 0 !important;
+  	height: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	z-index: 0;
+}
+.handEmojiHeader {
+  	width: 40px;
+  	height: 35px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 10px;
+  	box-sizing: border-box;
+  	position: relative;
+}
+.mailEmojiIcon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 40px;
+  	height: 30px;
+}
+.mailEmoji2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 25.7px;
+  	height: 30px;
+}
+.mailEmoji {
+  	width: 40px;
+  	position: relative;
+  	height: 30px;
+}
+.mailEmojiFrame {
+  	width: 40px;
+  	height: 30px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+}
+.rightHeader {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-end;
+  	gap: 25px;
+  	z-index: 0;
+}
+.nufriends {
+  	width: 262px;
+  	position: relative;
+  	display: -webkit-inline-box;
+  	align-items: center;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	-webkit-line-clamp: 2;
+  	-webkit-box-orient: vertical;
+  	flex-shrink: 0;
+  	text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+  	z-index: 0;
+}
+.robotHeaderImageIcon {
+  	width: 15.27%;
+  	position: absolute;
+  	margin: 0 !important;
+  	height: 100%;
+  	top: 0%;
+  	right: 27.27%;
+  	bottom: 0%;
+  	left: 57.46%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	z-index: 1;
+}
+.nufriendsHeaderFrame {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 25px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 10px;
+  	z-index: 1;
+}
+.header {
+  	align-self: stretch;
+  	height: 93px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	position: relative;
+  	gap: 778px;
+  	text-align: left;
+}
+.neverFeelAlone {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 72px;
+  	line-height: 130.48%;
+}
+.landingPageFinalChild {
+  	align-self: stretch;
+  	position: relative;
+  	background-color: rgba(217, 217, 217, 0);
+  	height: 1px;
+}
+.findFiveFriends {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 54px;
+  	color: #42ade2;
+}
+.landingPageFinalItem {
+  	align-self: stretch;
+  	position: relative;
+  	background-color: rgba(217, 217, 217, 0);
+  	height: 10px;
+}
+.answerAFew {
+  	margin: 0;
+}
+.answerAFewContainer {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 24px;
+  	line-height: 32px;
+  	font-weight: 700;
+  	font-family: Roboto;
+  	color: #818181;
+  	backdrop-filter: blur(4px);
+}
+.landingPageFinalInner {
+  	align-self: stretch;
+  	position: relative;
+  	background-color: rgba(217, 217, 217, 0);
+  	height: 26px;
+}
+.findMyFriendsButtonFrameChild {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: rgba(217, 217, 217, 0);
+  	width: 968px;
+  	height: 103px;
+}
+.findMyFriendsButtonFrameItem {
+  	position: absolute;
+  	top: 0px;
+  	left: 81.2px;
+  	background-color: rgba(217, 217, 217, 0);
+  	width: 810.3px;
+  	height: 103px;
+}
+.findMyFriendsButtonChild {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 45px;
+  	background-color: #f8fcff;
+  	border: 3px solid #42ade2;
+  	box-sizing: border-box;
+}
+.handEmojiOnButtonIcon {
+  	position: absolute;
+  	height: 67.73%;
+  	width: 19.26%;
+  	top: 15.54%;
+  	right: 4.53%;
+  	bottom: 16.73%;
+  	left: 76.22%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.findMyFriends {
+  	position: absolute;
+  	height: 39.84%;
+  	width: 85.76%;
+  	top: 30.11%;
+  	left: 0%;
+  	line-height: 40px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.findMyFriendsButton {
+  	position: absolute;
+  	top: 0px;
+  	left: 323.2px;
+  	width: 342.7px;
+  	height: 109.7px;
+}
+.findMyFriendsButtonFrame {
+  	align-self: stretch;
+  	position: relative;
+  	height: 109.7px;
+  	color: #42ade2;
+  	font-family: Roboto;
+}
+.worriedAboutTheContainer {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 20px;
+  	line-height: 32px;
+  	font-weight: 700;
+  	font-family: Inter;
+  	color: #818181;
+}
+.landingPageFinalChild1 {
+  	align-self: stretch;
+  	position: relative;
+  	background-color: rgba(217, 217, 217, 0);
+  	height: 0px;
+}
+.seeHowIt {
+  	width: 255px;
+  	position: relative;
+  	line-height: 32px;
+  	font-weight: 800;
+  	display: flex;
+  	align-items: flex-end;
+  	justify-content: center;
+  	height: 37px;
+  	flex-shrink: 0;
+}
+.pointDownEmojiIcon {
+  	width: 39.7px;
+  	position: relative;
+  	height: 47.2px;
+}
+.seeHowItWorksParent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	font-size: 22px;
+  	color: #7d7d7d;
+  	font-family: 'Roboto Slab';
+}
+.landingPageFinal {
+  	position: relative;
+  	background: linear-gradient(180deg, #e2f8ff, #fff);
+  	width: 100%;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0px 63px 30px;
+  	box-sizing: border-box;
+  	gap: 25px;
+  	text-align: center;
+  	font-size: 32px;
+  	color: #119be8;
+  	font-family: 'Suez One';
+}
+
