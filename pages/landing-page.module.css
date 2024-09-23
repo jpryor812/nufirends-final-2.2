@@ -169,20 +169,21 @@
   	height: 26px;
 }
 .findMyFriendsButtonFrameChild {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	background-color: rgba(217, 217, 217, 0);
-  	width: 968px;
+  	width; 100%;
   	height: 103px;
+    background-color: rgba(217, 217, 217, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .findMyFriendsButtonFrameItem {
-  	position: absolute;
-  	top: 0px;
-  	left: 81.2px;
+  	width: 100%;
+    max-width: 810.3px;
+    height: 103px;
   	background-color: rgba(217, 217, 217, 0);
-  	width: 810.3px;
-  	height: 103px;
+  	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .findMyFriendsButtonChild {
   	height: 100%;
@@ -196,16 +197,11 @@
     justify-content: center;
 }
 .handEmojiOnButtonIcon {
-  	position: absolute;
-  	height: 67.73%;
-  	width: 19.26%;
-  	top: 15.54%;
-  	right: 4.53%;
-  	bottom: 16.73%;
-  	left: 76.22%;
-  	max-width: 100%;
-  	overflow: hidden;
-  	max-height: 100%;
+  	height: 100%;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin: auto;
 }
 .findMyFriends {
   	height: auto;
