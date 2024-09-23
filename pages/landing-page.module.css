@@ -127,6 +127,7 @@
   	position: relative;
   	font-size: 72px;
   	line-height: 130.48%;
+    font-family: 'Suez One';
 }
 .landingPageFinalChild {
   	align-self: stretch;
@@ -139,6 +140,7 @@
   	position: relative;
   	font-size: 54px;
   	color: #42ade2;
+    font-family: 'Suez One';
 }
 .landingPageFinalItem {
   	align-self: stretch;
