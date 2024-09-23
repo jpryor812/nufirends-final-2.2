@@ -202,13 +202,14 @@
     margin-right: 10px;
 }
 .findMyFriends {
-    font-size: 32px; 
+    font-size: 28px; 
     line-height: 40px;
     margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #42ade2;
+    font-family: 'Suez One';
 }
 .findMyFriendsButton {
   	width: 100%;
