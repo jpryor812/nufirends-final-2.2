@@ -197,29 +197,30 @@
     justify-content: center;
 }
 .handEmojiOnButtonIcon {
-  	height: 100%;
-    width: auto;
-    max-width: 100%;
-    display: block;
-    margin: auto;
+  	height: 40px;
+    width: 40px;
+    margin-right: 10px;
 }
 .findMyFriends {
-  	height: auto;
-    width: 100%; 
+    font-size: 24px; 
     line-height: 40px;
+    margin-left: 10px
     display: flex;
     align-items: center;
     justify-conent: center;
-    font-size: inherit;
 }
 .findMyFriendsButton {
   	width: 100%;
     max-width: 342.7px;
     height: 109.7px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    background-color: #f8fcff;
+    border: 3px solid #42ade2;
+    border-radius: 45px;
 }
 .findMyFriendsButtonFrame {
   	display: flex;
