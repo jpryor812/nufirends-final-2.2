@@ -197,8 +197,8 @@
     justify-content: center;
 }
 .handEmojiOnButtonIcon {
-  	height: 65px;
-    width: 65px;
+  	height: 60px;
+    width: 60px;
     flex-shrink: 0;;
     margin-right: 10px;
 }
