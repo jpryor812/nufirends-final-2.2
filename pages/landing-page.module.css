@@ -212,6 +212,11 @@
     color: #42ade2;
     font-family: Roboto;
 }
+
+.findMyFriendsBUtton:hover .findMyFriends {
+  color: #fff;
+}
+
 .findMyFriendsButton {
   	width: 100%;
     max-width: 342.7px;
@@ -225,7 +230,14 @@
     border: 3px solid #42ade2;
     border-radius: 45px;
     box-sizing: border-box;
+    transition: background-color 0.1s ease, color 0.1s ease;
 }
+
+.findMyFriendsButton:hover {
+  background-color: #42ade2;
+  color: #fff;
+}
+
 .findMyFriendsButtonFrame {
   	display: flex;
     justify-content: center;
