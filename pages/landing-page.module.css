@@ -197,12 +197,12 @@
     justify-content: center;
 }
 .handEmojiOnButtonIcon {
-  	height: 55px;
-    width: 55px;
+  	height: 60px;
+    width: 60px;
     margin-right: 10px;
 }
 .findMyFriends {
-    font-size: 24px; 
+    font-size: 32px; 
     line-height: 40px;
     margin-left: 10px;
     display: flex;
