@@ -105,6 +105,31 @@
   	justify-content: flex-start;
   	padding: 0px 151px 22px 223px;
 }
+.ellipse16 {
+  	width: 100%;
+  	position: relative;
+  	border-radius: 50%;
+  	background-color: #cee4f0;
+  	height: 34.4px;
+}
+.rectangle49 {
+  	width: 100%;
+  	position: relative;
+  	border-radius: 90px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 53.8px;
+  	object-fit: contain;
+}
+.rectangle50 {
+  	width: 100%;
+  	position: relative;
+  	border-radius: 90px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 53.8px;
+  	object-fit: contain;
+}
 .question112 {
   	position: relative;
   	line-height: 40px;
