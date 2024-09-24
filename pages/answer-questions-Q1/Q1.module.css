@@ -1,11 +1,4 @@
-.answerQuestionsQ1Child {
-   align-self: stretch;
-   position: relative;
-   background-color: rgba(255, 255, 255, 0);
-   height: 37px;
-   overflow: hidden;
-   flex-shrink: 0;
-}
+
 .nufriends {
    width: 262px;
    position: relative;
@@ -40,14 +33,6 @@
    justify-content: flex-end;
    position: relative;
    gap: 32px;
-}
-.answerQuestionsQ1Item {
-   align-self: stretch;
-   position: relative;
-   background-color: rgba(255, 255, 255, 0);
-   height: 25px;
-   overflow: hidden;
-   flex-shrink: 0;
 }
 .textBoxWrapper {
    align-self: stretch;
