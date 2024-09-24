@@ -18,7 +18,7 @@ const AnswerQuestionsQ:NextPage = () => {
             						</div>
             						</div>
             						<div className={styles.yuBigSpeakWrapper}>
-              							<img className={styles.yuBigSpeak} alt="" src="Yu big Speak.svg" />
+              							<img className={styles.yuBigSpeak} alt="" src="Yu-big-final.svg" />
             						</div>
             						<div className={styles.question112Wrapper}>
               							<div className={styles.question112}>Question 1/12</div>
