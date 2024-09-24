@@ -152,7 +152,7 @@
   font-size: 22px;
   color: #000;
   font-family: Roboto;
-  }
+}
 .textBoxFrame {
   align-self: stretch;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -166,18 +166,29 @@
   align-items: flex-end;
   justify-content: flex-start;
   padding: 16px 28px;
-  }
+}
 .texthere {
   width: 1022px;
+  height: 150px; /* Adjusted to fit within textBoxFrame */
   position: relative;
+  font-size: 22px;
   line-height: 28px;
-  display: flex;
-  align-items: flex-end;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  flex-shrink: 0;
-  }
+  font-family: Roboto, sans-serif;
+  color: #000;
+  background: transparent;
+  border: none;
+  resize: none; /* Prevent manual resizing */
+  overflow-y: auto; /* Add scrollbar when content exceeds height */
+  padding: 0; /* Remove padding to match original design */
+  margin: 0;
+  flex-grow: 1;
+}
+.texthere::placeholder {
+  color: #999;
+}
+.texthere:focus {
+  outline: none;
+}
 .sendMessageIconGroup {
   flex: 1;
   display: flex;
@@ -186,14 +197,21 @@
   justify-content: flex-end;
   gap: 19px;
   margin-left: -630px;
-  }
+}
 .micIcon {
   width: 42px;
   position: relative;
   height: 42.9px;
-  }
+}
 .nextButtonIcon {
   width: 62.2px;
   position: relative;
   height: 61.7px;
-  }
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.nextButtonIcon:hover {
+  opacity: 0.8;
+}
