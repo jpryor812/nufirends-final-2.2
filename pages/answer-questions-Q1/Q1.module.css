@@ -125,7 +125,7 @@
   overflow: hidden;
 }
 .groupYuBigSpeakIcon {
-  width: clamp(100px, 25vw, 311px); /* Smooth scaling from 100px to 311px */
+  width: clamp(100px, 5vw, 311px); /* Smooth scaling from 100px to 311px */
   height: auto;
   object-fit: contain;
   margin-left: clamp(20px, 15vw, 223px); /* Responsive margin */
