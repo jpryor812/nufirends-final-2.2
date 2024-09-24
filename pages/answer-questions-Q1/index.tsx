@@ -1,7 +1,18 @@
 import type { NextPage } from 'next';
+import { useState } from ' react';
 import styles from './Q1.module.css';
 
 const AnswerQuestionsQ1: NextPage = () => {
+    const [userAnswer, setUserAnswer] = useState(' ');
+
+    const handleInputChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
+      setUserAnswer(event.target.value);
+    };
+
+    const handleSubmit = () => {
+        console.log('Submitted answer:', userAnswer);
+    };
+  
   return (
     <div className={styles.answerQuestionsQ1}>
       {/* Header Section */}
@@ -13,12 +24,12 @@ const AnswerQuestionsQ1: NextPage = () => {
       </div>
       
       {/* Question Textbox */}
-      <div className={styles.textBoxFrame}>
+    <div className={styles.textBoxFrame}>
       <div className={styles.textBox}>
         <div className={styles.textBoxRectangle} />
         <div className={styles.whereAreYou}>Where are you from? Did you enjoy growing up there? Why or why not?</div>
       </div>
-      </div>
+    </div>
           
       {/* Yu Big Speak Section */}
       <div className={styles.bigYuFrame}>
@@ -33,10 +44,17 @@ const AnswerQuestionsQ1: NextPage = () => {
       {/* Textarea and Mic Section */}
       <div className={styles.textBoxComponent}>
         <div className={styles.textBoxFrame}>
-          <div className={styles.texthere}>{`<texthere>`}</div>
+        <textarea
+          className={styles.texthere}
+          value={userAnswer}
+          onChange={handleInputeChange}
+          placeholder="Enter your answer here..."
+          />
           <div className={styles.sendMessageIconGroup}>
             <img className={styles.micIcon} alt="" src="mic.svg" />
-            <img className={styles.nextButtonIcon} alt="" src="next_button.svg" />
+            <button onClick={handleSubmit} className={styles.nextButtonIcon}>
+              <img alt="Submit" src="next_button.svg" />
+            </button>
           </div>
         </div>
       </div>
