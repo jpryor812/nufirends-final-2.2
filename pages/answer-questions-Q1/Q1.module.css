@@ -16,7 +16,7 @@
 .header {
   width: 100%;
   position: relative;
-  height: 93px;
+  height: 80px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -54,18 +54,19 @@
   }
 .BigTextBoxFrame {
   width: 100%;
-  max-width: 784px;
-  height: 296.6px;
+  max-width: 1318px; /* 817px + 501px to account for the left padding */
   display: flex;
   align-items: center;
   justify-content: flex-end;
   padding: 18px 0px 0px 501px;
-  }
+  box-sizing: border-box;
+}
 .BigTextBox {
   position: relative;
-  width: 817px;
-  height: 278.6px;
-  }
+  width: 100%;
+  max-width: 817px;
+  aspect-ratio: 817 / 278.6; /* Maintains the original aspect ratio */
+}
 .bigtextboxrectangle {
   position: absolute;
   top: 0;
@@ -109,7 +110,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 0px 784px 22px 223px;
+  padding: 0px 784px 0px 223px;
   box-sizing: border-box;
   }
 .groupYuBigSpeakIcon {
