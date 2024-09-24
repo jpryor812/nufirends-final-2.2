@@ -54,6 +54,7 @@
   }
 .textBoxFrame {
   width: 100%;
+  max-width: 817px;
   position: relative;
   background-color: rgba(255, 255, 255, 0);
   height: 296.6px;
@@ -75,6 +76,7 @@
   }
 .textBoxRectangle {
   width: 100%;
+  max-width: 817px;
   position: relative;
   border-radius: 60px;
   background-color: #fff;
