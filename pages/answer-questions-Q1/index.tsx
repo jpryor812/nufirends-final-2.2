@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { useState } from ' react';
+import { useState } from 'react';
 import styles from './Q1.module.css';
 
 const AnswerQuestionsQ1: NextPage = () => {
