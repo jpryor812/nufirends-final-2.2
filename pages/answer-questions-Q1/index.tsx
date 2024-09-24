@@ -3,7 +3,7 @@ import styles from './Q1.module.css';
 
 const AnswerQuestionsQ1: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.answerQuestionsQ1}>
       {/* Header Section */}
       <div className={styles.frameDiv}>
         <div className={styles.nufriendsHeaderFrame}>
