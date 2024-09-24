@@ -5,42 +5,36 @@ const AnswerQuestionsQ1: NextPage = () => {
   return (
     <div className={styles.answerQuestionsQ1}>
       {/* Header Section */}
-      <div className={styles.frameDiv}>
+      <div className={styles.header}>
         <div className={styles.nufriendsHeaderFrame}>
           <div className={styles.nufriends}>nufriends</div>
-          <img className={styles.robotHeaderImageIcon} alt="Robot Header" src="robot-header-image.png" />
+          <img className={styles.robotHeaderImageIcon} alt="" src="robot-header-image.svg" />
         </div>
       </div>
       
       {/* Question Textbox */}
-      <div className={styles.textBoxParent}>
-        <div className={styles.textBox}>
-          <div className={styles.textBoxChild}>
-            <div className={styles.whereAreYou}>Where are you from? Did you enjoy growing up there? Why or why not?</div>
-          </div>
-        </div>
+      <div className={styles.textBox}>
+        <div className={styles.textBoxRectangle} />
+        <div className={styles.whereAreYou}>Where are you from? Did you enjoy growing up there? Why or why not?</div>
       </div>
 
       {/* Yu Big Speak Section */}
-      <div className={styles.groupYuBigSpeakParent}>
-        <img className={styles.groupYuBigSpeakIcon} alt="Yu Big" src="Yu-big-speak.svg" />
-        <img className={styles.rectangleIcon} alt="Rectangle 49" src="Rectangle 49.svg" />
-        <img className={styles.rectangleIcon} alt="Rectangle 50" src="Rectangle 50.svg" />
+      <div className={styles.bigYuFrame}>
+        <img className={styles.groupYuBigSpeakIcon} alt="" src="Group-Yu-big-speak.svg" />
       </div>
 
       {/* Question Progress */}
-      <div className={styles.question112Parent}>
+      <div className={styles.questionCounterFrame}>
         <div className={styles.question112}>Question 1/12</div>
       </div>
 
       {/* Textarea and Mic Section */}
-      <div className={styles.groupParent}>
-        <div className={styles.groupWrapper}>
-          <div className={styles.groupChild}>
-            <textarea className={styles.textarea} placeholder="Type your answer here..." />
-            <div className={styles.groupItem}>
-              <img className={styles.groupInner} alt="Mic Icon" src="mic.svg" />
-            </div>
+      <div className={styles.textBoxComponent}>
+        <div className={styles.textBoxFrame}>
+          <div className={styles.texthere}>{`<texthere>`}</div>
+          <div className={styles.sendMessageIconGroup}>
+            <img className={styles.micIcon} alt="" src="mic.svg" />
+            <img className={styles.nextButtonIcon} alt="" src="next_button.svg" />
           </div>
         </div>
       </div>
