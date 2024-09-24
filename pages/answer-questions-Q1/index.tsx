@@ -23,7 +23,7 @@ const AnswerQuestionsQ1: NextPage = () => {
 
       {/* Yu Big Speak Section */}
       <div className={styles.groupYuBigSpeakParent}>
-        <img className={styles.groupYuBigSpeakIcon} alt="Yu Big" src="Yu-big.svg" />
+        <img className={styles.groupYuBigSpeakIcon} alt="Yu Big" src="Yu-big-speak.svg" />
         <img className={styles.rectangleIcon} alt="Rectangle 49" src="Rectangle 49.svg" />
         <img className={styles.rectangleIcon} alt="Rectangle 50" src="Rectangle 50.svg" />
       </div>
