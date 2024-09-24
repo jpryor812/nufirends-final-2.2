@@ -13,45 +13,42 @@
   color: #119be8;
   font-family: 'Suez One';
   }
-.header {
-  width: 100%;
-  position: relative;
-  height: 80px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: left;
-  font-size: 32px;
-  color: #119be8;
-  font-family: 'Suez One';
-  }
-.nufriendsHeaderFrame {
-  margin: 0 !important;
-  position: absolute;
-  top: 25px;
-  left: 0px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 10px;
-  z-index: 0;
-  }  
 .robotHeaderImageIcon {
-  width: 15.27%;
-  position: absolute;
-  margin: 0 !important;
-  height: 100%;
-  top: 0%;
-  right: 27.27%;
-  bottom: 0%;
-  left: 57.46%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  z-index: 1;
-  }
+  	width: 15.27%;
+  	position: absolute;
+  	margin: 0 !important;
+  	height: 100%;
+  	top: 0%;
+  	right: 27.27%;
+  	bottom: 0%;
+  	left: 57.46%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	z-index: 1;
+}
+.nufriendsHeaderFrame {
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 25px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 10px;
+  	z-index: 1;
+}
+.header {
+  	align-self: stretch;
+  	height: 93px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	position: relative;
+  	gap: 778px;
+  	text-align: left;
 .BigTextBoxFrame {
   width: 100%;
   max-width: 1318px; /* 817px + 501px to account for the left padding */
