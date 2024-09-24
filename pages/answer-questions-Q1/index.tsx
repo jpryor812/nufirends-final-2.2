@@ -17,13 +17,14 @@ const AnswerQuestionsQ:NextPage = () => {
           					<div className={styles.whereAreYou}>Where are you from? Did you enjoy growing up there? Why or why not?</div>
             						</div>
             						</div>
-            						   <div className={styles.imageGroup}>
+            						
+          <div className={styles.imageGroup}>
                             <img className={styles.yuBigSpeak} alt="Yu Big Final" src="/Yu-big-final.svg" />
                             <img className={styles.ellipse16} alt="Ellipse 16" src="/Ellipse-16.svg" />
                             <img className={styles.rectangle49} alt="Rectangle 49" src="/Rectangle-49.svg" />
                             <img className={styles.rectangle50} alt="Rectangle 50" src="/Rectangle-50.svg" />
                           </div>
-            						</div>
+            						
             						<div className={styles.question112Wrapper}>
               							<div className={styles.question112}>Question 1/12</div>
             						</div>
