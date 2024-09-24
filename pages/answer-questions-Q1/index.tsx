@@ -17,15 +17,15 @@ const AnswerQuestionsQ1: NextPage = () => {
       <div className={styles.header}>
         <div className={styles.nufriendsHeaderFrame}>
           <div className={styles.nufriends}>nufriends</div>
-          <img className={styles.robotHeaderImageIcon} alt="" src="robot-header-image.png" />
+          <img className={styles.robotHeaderImageIcon} alt="" src="robot-header-image.svg" />
         </div>
       </div>
       
       {/* Question Textbox */}
         <div className={styles.BigTextBoxFrame}>
           <div className={styles.BigTextBox}>
-            <div className={styles.bigtextboxrectangle} />
-            <div className={styles.whereareyou}>Where are you from? Did you enjoy growing up there? Why or why not?</div>
+          <div className={styles.bigtextboxrectangle} />
+          <div className={styles.whereareyou}>Where are you from? Did you enjoy growing up there? Why or why not?</div>
           </div>
         </div>
           
