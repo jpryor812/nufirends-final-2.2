@@ -1,14 +1,19 @@
 .answerQuestionsQ1 {
-  width: 100%;
-  background: linear-gradient(180deg, #e0f7ff, #fff);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 20px 63px;
-  box-sizing: border-box;
-  font-family: 'Suez One', sans-serif;
+width: 100%;
+position: relative;
+background: linear-gradient(180deg, #e0f7ff, #fff);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 0px 63px;
+box-sizing: border-box;
+text-align: left;
+font-size: 32px;
+color: #119be8;
+font-family: 'Suez One';
 }
+
 .answerQuestionsQ1Child,
 .answerQuestionsQ1Item,
 .frameDiv {
