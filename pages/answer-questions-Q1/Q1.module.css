@@ -83,7 +83,7 @@
   font-family: 'Suez One';
   color: #42ade2;
   text-align: center;
-  display: -webkit-inline-box;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
