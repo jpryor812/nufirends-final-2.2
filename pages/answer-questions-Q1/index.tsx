@@ -15,10 +15,10 @@ const AnswerQuestionsQ1: NextPage = () => {
     <div className={styles.answerQuestionsQ1}>
       {/* Header Section */}
       <div className={styles.header}>
-        <div className={styles.nufriendsHeaderFrame}>
-          <div className={styles.nufriends}>nufriends</div>
-          <img className={styles.robotHeaderImageIcon} alt="" src="robot-header-image.svg" />
-        </div>
+      <div className={styles.nufriendsHeaderFrame}>
+        <div className={styles.nufriends}>nufriends</div>
+        <img className={styles.robotHeaderImageIcon} alt="" src="robot-header-image.svg" />
+      </div>
       </div>
       
       {/* Question Textbox */}
