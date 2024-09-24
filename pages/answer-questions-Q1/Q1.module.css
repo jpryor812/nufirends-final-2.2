@@ -31,6 +31,7 @@
 }
 
 .nufriends {
+  width: 262px;
   font-family: 'Suez One', serif;
   font-size: 32px;
   color: #119be8;
@@ -40,7 +41,6 @@
 .robotHeaderImageIcon {
   width: 40px;
   height: 42px;
-  margin-left: 10px;
 }
 
 /* Text Box */
