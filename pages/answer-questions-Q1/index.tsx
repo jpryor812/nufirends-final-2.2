@@ -3,7 +3,7 @@ import styles from './Q1.module.css';
 
 const AnswerQuestionsQ1: NextPage = () => {
   return (
-    <div>
+    <div className={styles.container}>
       {/* Header Section */}
       <div className={styles.nufriendsHeaderFrame}>
         <div className={styles.nufriends}>nufriends</div>
@@ -11,7 +11,7 @@ const AnswerQuestionsQ1: NextPage = () => {
       </div>
       
       {/* Question Textbox */}
-      <div className={styles.textBoxParent}>
+      <div className={styles.textBoxWrapper}>
         <div className={styles.textBox}>
           <div className={styles.textBoxChild} />
           <div className={styles.whereAreYou}>Where are you from? Did you enjoy growing up there? Why or why not?</div>
@@ -19,35 +19,25 @@ const AnswerQuestionsQ1: NextPage = () => {
       </div>
 
       {/* Yu Big Speak Section */}
-      <div className={styles.groupYuBigSpeakParent}>
-        <img className={styles.groupYuBigSpeakIcon} alt="Yu Big Speak" src="Group Yu-big-speak.svg" />
+      <div className={styles.yuBigSection}>
+        <img className={styles.yuBigIcon} alt="Yu Big" src="Yu-big.svg" />
+        <img className={styles.ellipseIcon} alt="Ellipse 16" src="Ellipse 16.svg" />
         <img className={styles.rectangleIcon} alt="Rectangle 49" src="Rectangle 49.svg" />
         <img className={styles.rectangleIcon} alt="Rectangle 50" src="Rectangle 50.svg" />
-        <div className={styles.yuBig}>
-          <img className={styles.yuBigIcon} alt="Yu Big" src="Yu-big.svg" />
-        </div>
       </div>
 
       {/* Question Progress */}
-      <div className={styles.question112Parent}>
+      <div className={styles.questionProgress}>
         <div className={styles.question112}>Question 1/12</div>
       </div>
 
       {/* Textarea and Mic Section */}
-      <div className={styles.groupParent}>
-        <div className={styles.groupWrapper}>
-          <div className={styles.rectangleParent}>
-            <div className={styles.groupChild} />
-            <div className={styles.textarea}>{`<textarea>`}</div>
-            <img className={styles.micIcon} alt="Mic Icon" src="mic.svg" />
-            <div className={styles.groupItem} />
-            <img className={styles.groupInner} alt="Arrow" src="Arrow 1.svg" />
-          </div>
+      <div className={styles.textareaWrapper}>
+        <div className={styles.textareaBox}>
+          <textarea className={styles.textarea} placeholder="Type your answer here..." />
+          <img className={styles.micIcon} alt="Mic Icon" src="mic.svg" />
         </div>
       </div>
-
-      {/* Spacing Div */}
-      <div className={styles.frameDiv} />
     </div>
   );
 };
