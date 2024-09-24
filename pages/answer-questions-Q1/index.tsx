@@ -50,6 +50,7 @@ const AnswerQuestionsQ1: NextPage = () => {
           onChange={handleInputChange}
           placeholder="Enter your answer here..."
         />
+        </div> 
           <div className={styles.sendMessageIconGroup}>
             <img className={styles.micIcon} alt="" src="mic.svg" />
             <button onClick={handleSubmit} className={styles.nextButtonIcon}>
