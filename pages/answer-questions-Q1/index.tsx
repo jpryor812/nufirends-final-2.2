@@ -4,11 +4,9 @@ import styles from './Q1.module.css';
 
 const AnswerQuestionsQ1: NextPage = () => {
     const [userAnswer, setUserAnswer] = useState(' ');
-
     const handleInputChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
       setUserAnswer(event.target.value);
     };
-
     const handleSubmit = () => {
         console.log('Submitted answer:', userAnswer);
     };
@@ -24,12 +22,12 @@ const AnswerQuestionsQ1: NextPage = () => {
       </div>
       
       {/* Question Textbox */}
-    <div className={styles.textBoxFrame}>
-      <div className={styles.textBox}>
-        <div className={styles.textBoxRectangle} />
-        <div className={styles.whereAreYou}>Where are you from? Did you enjoy growing up there? Why or why not?</div>
-      </div>
-    </div>
+    <div className={styles.textBoxRectangle} />
+        <div className={styles.textBoxFrame}>
+          <div className={styles.textBox}>
+            <div className={styles.whereAreYou}>Where are you from? Did you enjoy growing up there? Why or why not?</div>
+          </div>
+        </div>
           
       {/* Yu Big Speak Section */}
       <div className={styles.bigYuFrame}>
