@@ -61,18 +61,20 @@
   	height: 278.6px;
 }
 .whereAreYou {
-  	position: absolute;
-  	top: 17.24px;
-  	left: 15.31px;
-  	display: -webkit-inline-box;
-  	align-items: center;
-  	justify-content: center;
-  	overflow: hidden;
-  	text-overflow: ellipsis;
-  	-webkit-line-clamp: 4;
-  	-webkit-box-orient: vertical;
-  	width: 783.2px;
-  	text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+width: 783.2px;
+position: relative;
+font-size: 46px;
+font-family: 'Suez One';
+color: #42ade2;
+text-align: center;
+display: -webkit-inline-box;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+text-overflow: ellipsis;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
 }
 .textBox {
   	flex: 1;
