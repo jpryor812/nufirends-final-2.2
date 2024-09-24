@@ -59,7 +59,6 @@ const AnswerQuestionsQ1: NextPage = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
