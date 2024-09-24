@@ -22,9 +22,9 @@ const AnswerQuestionsQ1: NextPage = () => {
       </div>
       
       {/* Question Textbox */}
-    <div className={styles.textBoxRectangle} />
         <div className={styles.textBoxFrame}>
           <div className={styles.textBox}>
+            <div className={styles.textBoxRectangle} />
             <div className={styles.whereAreYou}>Where are you from? Did you enjoy growing up there? Why or why not?</div>
           </div>
         </div>
