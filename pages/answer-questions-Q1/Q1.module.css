@@ -85,7 +85,7 @@
   width: 100%;
   height: 100%;
   padding: 20px;
-  font-size: 46px;
+  font-size: clamp(16px, 4vw, 46px);
   font-family: 'Suez One';
   color: #42ade2;
   text-align: center;
