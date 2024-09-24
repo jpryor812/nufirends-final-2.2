@@ -1,20 +1,14 @@
 .answerQuestionsQ1 {
-    position: relative;
-  	background: linear-gradient(180deg, #e2f8ff, #fff);
-  	width: 100%;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
-  	padding: 0px 63px 30px;
-  	box-sizing: border-box;
-  	gap: 25px;
-  	text-align: center;
-  	font-size: 32px;
-  	color: #119be8;
-  	font-family: 'Suez One';
+  width: 100%;
+  background: linear-gradient(180deg, #e0f7ff, #fff);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 63px;
+  box-sizing: border-box;
+  font-family: 'Suez One', sans-serif;
 }
-
 .answerQuestionsQ1Child,
 .answerQuestionsQ1Item,
 .frameDiv {
