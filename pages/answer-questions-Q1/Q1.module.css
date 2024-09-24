@@ -99,21 +99,24 @@
   text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
   }
 .bigYuFrame {
+  width: 100%;
   position: relative;
   background-color: rgba(255, 255, 255, 0);
-  width: 100%;
+  height: 329.5px;
   overflow: hidden;
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 0px 151px 22px 223px;
+  padding: 0px 784px 22px 223px;
   box-sizing: border-box;
   }
 .groupYuBigSpeakIcon {
-  width: 302.7px;
+  align-self: stretch;
+  width: 311px;
   position: relative;
-  height: 307.5px;
+  max-height: 100%;
   }
 .questionCounterFrame {
   width: 100%;
