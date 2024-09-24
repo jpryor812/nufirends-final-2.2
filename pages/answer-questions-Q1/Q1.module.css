@@ -125,38 +125,54 @@
   overflow: hidden;
 }
 .groupYuBigSpeakIcon {
-  width: 100%;
-  max-width: 311px;
+  width: clamp(100px, 20vw, 311px); /* Smooth scaling from 100px to 311px */
   height: auto;
-  max-height: 329.5px;
   object-fit: contain;
-  margin-left: 223px; /* Maintains the original left padding */
+  margin-left: clamp(20px, 15vw, 223px); /* Responsive margin */
+  transition: width 0.3s ease, margin-left 0.3s ease; /* Smooth transition */
 }
 
-/* Media queries for responsiveness */
+/* Fine-grained media queries for smoother transitions */
+@media (max-width: 1400px) {
+  .groupYuBigSpeakIcon {
+    width: clamp(90px, 18vw, 280px);
+    margin-left: clamp(15px, 12vw, 180px);
+  }
+}
+
 @media (max-width: 1200px) {
+  .groupYuBigSpeakIcon {
+    width: clamp(80px, 16vw, 250px);
+    margin-left: clamp(10px, 10vw, 150px);
+  }
+}
+
+@media (max-width: 1000px) {
+  .groupYuBigSpeakIcon {
+    width: clamp(70px, 14vw, 220px);
+    margin-left: clamp(5px, 8vw, 120px);
+  }
+}
+
+@media (max-width: 800px) {
   .bigYuFrame {
     justify-content: center;
-    padding: 20px;
   }
   .groupYuBigSpeakIcon {
+    width: clamp(60px, 12vw, 190px);
     margin-left: 0;
-    width: 70%;
-    max-width: 200px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .groupYuBigSpeakIcon {
-    width: 60%;
-    max-width: 150px;
+    width: clamp(50px, 10vw, 160px);
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .groupYuBigSpeakIcon {
-    width: 50%;
-    max-width: 100px;
+    width: clamp(40px, 8vw, 130px);
   }
 }
 .questionCounterFrame {
