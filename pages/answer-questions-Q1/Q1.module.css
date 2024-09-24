@@ -49,6 +49,7 @@
   	position: relative;
   	gap: 778px;
   	text-align: left;
+}
 .BigTextBoxFrame {
   width: 100%;
   max-width: 1318px; /* 817px + 501px to account for the left padding */
