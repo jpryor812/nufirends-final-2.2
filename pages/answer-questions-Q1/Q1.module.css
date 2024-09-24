@@ -54,19 +54,19 @@
   }
 .textBoxFrame {
   width: 100%;
-  position: relative;
-  background-color: rgba(255, 255, 255, 0);
-  height: 296.6px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 18px 0px 0px 501px;
+  max-width: 1022px; 
+  margin: 0 auto; 
+  box-shadow: none; 
+  border-radius: 35px;
+  background-color: transparent; 
+  border: none; 
   box-sizing: border-box;
-  text-align: center;
-  font-size: 46px;
-  color: #42ade2;
-  font-family: 'Suez One';
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 28px;
+  position: relative;
   }
 .textBox {
   align-self: stretch;
