@@ -52,7 +52,7 @@
   max-height: 100%;
   z-index: 1;
   }
-.textBoxFrame {
+.BigTextBoxFrame {
   width: 100%;
   max-width: 784px;
   height: 296.6px;
@@ -61,12 +61,12 @@
   justify-content: center;
   padding: 18px 0px 0px 501px;
   }
-.textBox {
+.BigTextBox {
   align-self: stretch;
   flex: 1;
   position: relative;
   }
-.textBoxRectangle {
+.bigtextboxrectangle {
   width: 100%;
   max-width: 817px;
   position: relative;
@@ -76,7 +76,7 @@
   box-sizing: border-box;
   height: 278.6px;
 }
-.whereAreYou {
+.whereareyou {
   width: 784.1px;
   position: relative;
   font-size: 46px;
@@ -132,7 +132,7 @@
   position: relative;
   line-height: 32px;
   }
-.textBoxComponent {
+.smalltextboxcomponent {
   width: 100%;
   position: relative;
   background-color: rgba(255, 255, 255, 0);
@@ -147,7 +147,7 @@
   color: #000;
   font-family: Roboto;
 }
-.textBoxFrame {
+.smalltextboxframe {
   align-self: stretch;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
