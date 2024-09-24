@@ -160,53 +160,52 @@
   background-color: #fff;
   border: 1px solid #000;
   box-sizing: border-box;
-  min-height: 200px;
+  height: 200px;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
   padding: 16px 28px;
 }
-.textareaWrapper {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  min-height: 168px; /* 200px - 16px * 2 for padding */
-}
 .texthere {
-  width: 100%;
-  min-height: 28px; /* Single line height */
-  max-height: 168px; /* Same as wrapper's min-height */
+  width: 1022px;
+  height: 150px; /* Adjusted to fit within textBoxFrame */
+  position: relative;
   font-size: 22px;
   line-height: 28px;
   font-family: Roboto, sans-serif;
   color: #000;
   background: transparent;
   border: none;
-  resize: none;
-  overflow-y: auto;
-  padding: 0;
+  resize: none; /* Prevent manual resizing */
+  overflow-y: auto; /* Add scrollbar when content exceeds height */
+  padding: 0; /* Remove padding to match original design */
   margin: 0;
+  flex-grow: 1;
 }
 .texthere::placeholder {
   color: #999;
 }
+.texthere:focus {
+  outline: none;
+}
 .sendMessageIconGroup {
+  flex: 1;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-end;
   gap: 19px;
-  margin-left: 20px;
-  padding-bottom: 4px; /* Align with the text baseline */
+  margin-left: -630px;
 }
 .micIcon {
   width: 42px;
+  position: relative;
   height: 42.9px;
 }
 .nextButtonIcon {
   width: 62.2px;
+  position: relative;
   height: 61.7px;
   background: none;
   border: none;
