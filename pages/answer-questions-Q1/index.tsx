@@ -47,9 +47,9 @@ const AnswerQuestionsQ1: NextPage = () => {
         <textarea
           className={styles.texthere}
           value={userAnswer}
-          onChange={handleInputeChange}
+          onChange={handleInputChange}
           placeholder="Enter your answer here..."
-          />
+        />
           <div className={styles.sendMessageIconGroup}>
             <img className={styles.micIcon} alt="" src="mic.svg" />
             <button onClick={handleSubmit} className={styles.nextButtonIcon}>
