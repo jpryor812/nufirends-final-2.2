@@ -88,7 +88,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  font-size: clamp(14px, 3vw, 46px); /* Adjusted for more responsive scaling */
+  font-size: clamp(14px, 2vw, 46px); /* Adjusted for more responsive scaling */
   font-family: 'Suez One';
   color: #42ade2;
   text-align: center;
