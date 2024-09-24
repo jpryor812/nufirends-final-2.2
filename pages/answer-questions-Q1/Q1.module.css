@@ -10,41 +10,44 @@
 
 /* NuFriends Header */
 .nufriends {
-   width: 262px;
-   position: relative;
-   display: inline-flex;
-   align-items: center;
-   overflow: hidden;
-   text-overflow: ellipsis;
-   -webkit-line-clamp: 2;
-   -webkit-box-orient: vertical;
-   flex-shrink: 0;
-   text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
-   z-index: 0;
-   text-align: center; /* Ensures text is centered */
+  	width: 262px;
+  	position: relative;
+    font-family: 'Suez One';
+  	display: -webkit-inline-box;
+  	align-items: center;
+  	overflow: hidden;
+  	text-overflow: ellipsis;
+  	-webkit-line-clamp: 2;
+  	-webkit-box-orient: vertical;
+  	flex-shrink: 0;
+  	text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+  	z-index: 0;
 }
-
-/* Robot Header Image */
 .robotHeaderImageIcon {
-   width: auto;
-   height: auto;
-   max-width: 100px; /* Restricts image width */
-   max-height: 100%;
-   object-fit: contain; /* Prevents stretching */
-   z-index: 1;
+  	width: 15.27%;
+  	position: absolute;
+  	margin: 0 !important;
+  	height: 100%;
+  	top: 0%;
+  	right: 27.27%;
+  	bottom: 0%;
+  	left: 57.46%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	z-index: 1;
 }
-
 .nufriendsHeaderFrame {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center; /* Centers the logo and robot */
-   gap: 32px;
-   width: 100%;
-   text-align: center;
-   font-size: 32px;
-   color: #119be8;
-   font-family: 'Suez One';
+  	margin: 0 !important;
+  	position: absolute;
+  	top: 25px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 10px;
+  	z-index: 1;
 }
 
 /* Text Box */
