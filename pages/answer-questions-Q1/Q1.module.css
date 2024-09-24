@@ -84,20 +84,33 @@
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 20px;
-  font-size: clamp(16px, 4vw, 46px);
-  font-family: 'Suez One';
-  color: #42ade2;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
+  font-size: clamp(14px, 3vw, 46px); /* Adjusted for more responsive scaling */
+  font-family: 'Suez One';
+  color: #42ade2;
+  text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
   box-sizing: border-box;
+}
+
+/* Additional media queries for finer control */
+@media (max-width: 768px) {
+  .whereareyou {
+    font-size: clamp(12px, 4vw, 32px);
+  }
+}
+
+@media (max-width: 480px) {
+  .whereareyou {
+    font-size: clamp(10px, 5vw, 24px);
+  }
 }
 .bigYuFrame {
   width: 100%;
