@@ -16,27 +16,21 @@
    align-items: center;
    overflow: hidden;
    text-overflow: ellipsis;
-   line-clamp: 2;
-   box-orient: vertical;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
    flex-shrink: 0;
    text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
    z-index: 0;
+   text-align: center; /* Ensures text is centered */
 }
 
 /* Robot Header Image */
 .robotHeaderImageIcon {
-   width: 15.27%;
-   position: absolute;
-   margin: 0 !important;
-   height: 100%;
-   top: 0;
-   right: 27.27%;
-   bottom: 0;
-   left: 57.46%;
-   max-width: 100%;
-   overflow: hidden;
+   width: auto;
+   height: auto;
+   max-width: 100px; /* Restricts image width */
    max-height: 100%;
-   object-fit: cover;
+   object-fit: contain; /* Prevents stretching */
    z-index: 1;
 }
 
@@ -44,10 +38,10 @@
    display: flex;
    flex-direction: row;
    align-items: center;
-   justify-content: flex-end;
+   justify-content: center; /* Centers the logo and robot */
    gap: 32px;
    width: 100%;
-   text-align: left;
+   text-align: center;
    font-size: 32px;
    color: #119be8;
    font-family: 'Suez One';
@@ -56,6 +50,7 @@
 /* Text Box */
 .textBoxParent {
    width: 100%;
+   max-width: 800px; /* Restricts max width */
    position: relative;
    background-color: transparent;
    display: flex;
@@ -69,39 +64,42 @@
 .textBox {
    flex: 1;
    position: relative;
-   height: 278.6px;
+   height: auto;
 }
 
 .textBoxChild {
-   position: absolute;
-   top: 0;
-   left: 0;
    border-radius: 60px;
    background-color: #fff;
    border: 7px solid #000;
    box-sizing: border-box;
-   width: 816px;
-   height: 278.6px;
+   width: 100%;
+   max-width: 816px;
+   padding: 20px; /* Added padding */
+   height: auto; /* Adjusts height dynamically */
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .whereAreYou {
-   width: 783.2px;
+   width: 100%;
+   max-width: 783.2px;
    position: relative;
    font-size: 46px;
    font-family: 'Suez One';
    color: #42ade2;
    text-align: center;
-   display: inline-flex;
-   align-items: center;
+   display: flex;
    justify-content: center;
    overflow: hidden;
    text-overflow: ellipsis;
    -webkit-line-clamp: 4;
    -webkit-box-orient: vertical;
    text-shadow: 1px 0 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+   word-wrap: break-word;
 }
 
-/* Rectangle & Group Section */
+/* Yu Big Speak Section */
 .groupYuBigSpeakParent {
    position: relative;
    background-color: transparent;
@@ -115,18 +113,17 @@
 }
 
 .groupYuBigSpeakIcon {
-   width: 302.7px;
-   position: relative;
-   height: 307.5px;
+   width: auto;
+   max-width: 302.7px; /* Restricts size */
+   height: auto; /* Keeps aspect ratio */
+   object-fit: contain; /* Prevents stretching */
 }
 
 .rectangleIcon {
-   width: 100%;
-   position: relative;
-   border-radius: 90px;
-   max-width: 100%;
-   height: 53.8px;
-   object-fit: contain;
+   width: auto;
+   max-width: 100px; /* Restricts size */
+   height: auto;
+   object-fit: contain; /* Prevents stretching */
 }
 
 /* Question Progress */
@@ -154,20 +151,19 @@
 
 /* Group Section */
 .groupChild {
-   position: absolute;
-   top: 0;
-   left: 0;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    border-radius: 35px;
    background-color: #fff;
    border: 1px solid #000;
    box-sizing: border-box;
-   width: 1317px;
+   width: 100%;
+   max-width: 1317px;
    height: 170px;
 }
 
 .textarea {
-   width: 1057.7px;
+   width: 100%;
+   max-width: 1057.7px;
    position: relative;
    font-size: 28px;
    line-height: 36px;
@@ -180,17 +176,11 @@
 }
 
 .micIcon {
-   position: absolute;
-   top: 111.11px;
-   left: 1160.89px;
    width: 41.1px;
    height: 40px;
 }
 
 .groupItem {
-   position: absolute;
-   top: 101.11px;
-   left: 1221.92px;
    border-radius: 50%;
    background-color: #e0f7ff;
    width: 62.2px;
@@ -198,11 +188,8 @@
 }
 
 .groupInner {
-   position: absolute;
-   top: 128.89px;
-   left: 1239.17px;
-   max-height: 100%;
    width: 27.7px;
+   height: auto;
 }
 
 .groupWrapper {
@@ -222,5 +209,32 @@
    font-size: 28px;
    color: #000;
    font-family: Roboto;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+   .nufriendsHeaderFrame {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .textBoxParent {
+      max-width: 100%;
+      padding: 0 20px;
+   }
+
+   .groupYuBigSpeakParent {
+      padding: 0;
+      justify-content: center;
+   }
+
+   .groupYuBigSpeakIcon {
+      max-width: 150px;
+   }
+
+   .rectangleIcon {
+      max-width: 50px;
+   }
 }
 
