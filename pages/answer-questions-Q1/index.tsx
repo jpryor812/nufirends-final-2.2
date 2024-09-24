@@ -17,15 +17,15 @@ const AnswerQuestionsQ1: NextPage = () => {
       <div className={styles.header}>
         <div className={styles.nufriendsHeaderFrame}>
           <div className={styles.nufriends}>nufriends</div>
-          <img className={styles.robotHeaderImageIcon} alt="" src="robot-header-image.svg" />
+          <img className={styles.robotHeaderImageIcon} alt="" src="robot-header-image.png" />
         </div>
       </div>
       
       {/* Question Textbox */}
-        <div className={styles.textBoxFrame}>
-          <div className={styles.textBox}>
-            <div className={styles.textBoxRectangle} />
-            <div className={styles.whereAreYou}>Where are you from? Did you enjoy growing up there? Why or why not?</div>
+        <div className={styles.BigTextBoxFrame}>
+          <div className={styles.BigTextBox}>
+            <div className={styles.bigtextboxrectangle} />
+            <div className={styles.whereareyou}>Where are you from? Did you enjoy growing up there? Why or why not?</div>
           </div>
         </div>
           
@@ -40,8 +40,8 @@ const AnswerQuestionsQ1: NextPage = () => {
       </div>
 
       {/* Textarea and Mic Section */}
-      <div className={styles.textBoxComponent}>
-        <div className={styles.textBoxFrame}>
+      <div className={styles.smalltextboxcomponent}>
+        <div className={styles.smalltextboxframe}>
         <textarea
           className={styles.texthere}
           value={userAnswer}
