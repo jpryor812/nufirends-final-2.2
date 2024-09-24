@@ -141,22 +141,22 @@
   }
   .groupYuBigSpeakIcon {
     margin-left: 0;
-    width: 80%;
-    max-width: 250px;
-  }
-}
-
-@media (max-width: 768px) {
-  .groupYuBigSpeakIcon {
     width: 70%;
     max-width: 200px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .groupYuBigSpeakIcon {
     width: 60%;
     max-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .groupYuBigSpeakIcon {
+    width: 50%;
+    max-width: 100px;
   }
 }
 .questionCounterFrame {
