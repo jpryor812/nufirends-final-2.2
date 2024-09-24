@@ -78,7 +78,7 @@
   top: 0px;
   left: 0px;
   border-radius: 60px;
-  background-color: #fff;
+  background-color: rgba(255, 0, 0, 0.5);
   border: 7px solid #000;
   box-sizing: border-box;
   width: 100%;
